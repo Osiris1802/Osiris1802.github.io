@@ -1,0 +1,172 @@
+body {
+	background-color: #b5a789;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+div.main {
+	width: 1200px;
+	height: 500px;
+}
+
+div#cont {
+	display: table;
+	border-spacing: 10px;
+}
+
+header,
+footer {
+	background-color: #675c47;
+	color: #efe5d0;
+	text-align: center;
+}
+
+header {
+	height: 80px;
+	line-height: 80px;
+	/*чтоб строка текста была посередине*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: x-large;
+	margin: 10px 0px 0px 10px;
+}
+
+div#row {
+	display: table-row;
+}
+
+section#photo,
+section#table {
+	display: table-cell;
+	background: #efe5d0;
+	padding: 10px;
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 100%;
+	color: #954b4b;
+}
+
+h1#big {
+	padding: 0px 0px 0px 15px;
+	font-size: x-large;
+}
+
+table#first {
+	width: 805px;
+	color: #675c47;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+section#one {
+	align-items: center;
+	width: 1170px;
+	background-color: #efe5d0;
+	padding: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+}
+
+.contacts {
+	display: flex;
+	justify-content: center;
+}
+
+.contact {
+	margin: 5px 5px 5px 50px;
+}
+
+.contact a:link,
+.contact a:visited {
+	color: #945b4b;
+	/*font-weight: bold;*/
+	text-decoration-line: none;
+	border-bottom: none;
+}
+
+.ico_ref {
+	color: #675c47;
+}
+
+.contact a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+section#one img {
+	background-color: #efe5d0;
+	border: none;
+}
+
+table#first th,
+table#first td {
+	border: 2px dotted black;
+	padding: 5px;
+}
+
+table#third th {
+	text-align: center;
+	padding: 5px 7px 5px 5px;
+}
+
+table#third td {
+	text-align: center;
+	padding: 0px 5px 5px 5px;
+}
+
+li {
+	margin-left: 10ps;
+	list-style-position: inside;
+	text-align: left;
+}
+
+nav#into li {
+	font-size: small;
+	padding: 5px 5px 5px 1px;
+}
+
+nav {
+	margin: 0px 0px 0px 10px;
+	background-color: #efe5d0;
+	display: flex;
+}
+
+nav ul {
+	justify-content: center;
+	margin: 0px 50px 0px 300px;
+	list-style-type: none;
+	padding: 5px 0px 4px 0px;
+}
+
+nav ul li {
+	align-items: center;
+	display: inline;
+	padding: 5px 25px 5px 25px;
+}
+
+a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+	color: #945b4b;
+	font-weight: bold;
+	text-decoration-line: none;
+	border-bottom: none;
+}
+
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+footer {
+	padding: 15px 0px;
+	font-size: 90%;
+	margin: 10px 0px 0px 10px;
+}
